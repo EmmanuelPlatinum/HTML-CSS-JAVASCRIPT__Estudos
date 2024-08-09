@@ -1,87 +1,114 @@
-margin
+1)Margin
 Função: Define o espaço externo ao redor dos elementos.
 Uso Típico: Adicionar espaçamento entre elementos.
-padding
+
+2)Padding
 Função: Define o espaço interno entre o conteúdo do elemento e sua borda.
 Uso Típico: Adicionar espaçamento interno dentro de um elemento.
-box-sizing
+3)Box-sizing
 Função: Controla como a largura e altura total de um elemento são calculadas.
 Uso Típico: Usado para incluir a borda e o preenchimento dentro das dimensões do elemento (border-box).
-font-family
+
+4)font-family
 Função: Define a família de fontes do texto.
 Uso Típico: Especificar a aparência da fonte, com fontes de fallback.
-line-height
+
+5)line-height
 Função: Define a altura da linha de texto.
 Uso Típico: Controlar o espaçamento vertical entre linhas de texto.
-background-color
+
+6)background-color
 Função: Define a cor de fundo de um elemento.
 Uso Típico: Adicionar cor de fundo a elementos.
-display
+
+7)&display
 Função: Especifica o tipo de caixa de renderização usada para um elemento.
 Uso Típico: Controlar como um elemento é exibido (block, inline, flex, etc.).
-justify-content
+
+8)justify-content
 Função: Alinha itens flexíveis ao longo do eixo principal.
 Uso Típico: Distribuir espaço ao redor dos itens em um container flexível (flex).
-align-items
+
+9)align-items
 Função: Alinha itens flexíveis ao longo do eixo transversal.
 Uso Típico: Alinhar itens ao centro, início ou fim do eixo transversal.
-font-size
+
+10)font-size
 Função: Define o tamanho da fonte.
 Uso Típico: Ajustar o tamanho do texto.
-font-weight
+
+11)font-weight
 Função: Define a espessura do texto.
 Uso Típico: Tornar o texto mais grosso ou mais fino (bold, normal).
+
 text-decoration
 Função: Adiciona ou remove decorações de texto.
 Uso Típico: Remover sublinhados de links (none).
+
 color
 Função: Define a cor do texto.
 Uso Típico: Alterar a cor do texto para destacar ou combinar com o design.
+
 text-align
 Função: Define o alinhamento horizontal do texto.
 Uso Típico: Centralizar, alinhar à esquerda ou à direita o texto.
+
 max-width
 Função: Define a largura máxima de um elemento.
 Uso Típico: Restringir a largura de um elemento para manter a responsividade.
+
 height
 Função: Define a altura de um elemento.
 Uso Típico: Ajustar a altura de elementos de acordo com o design.
+
 display: block
 Função: Define um elemento como um bloco.
 Uso Típico: Fazer um elemento ocupar a largura total disponível e começar em uma nova linha.
+
 border-radius
 Função: Define a curvatura dos cantos de um elemento.
 Uso Típico: Adicionar cantos arredondados a caixas, botões, imagens, etc.
+
 flex
 Função: Define como um container flexível deve ser exibido.
 Uso Típico: Criar layouts flexíveis para alinhar e distribuir itens no container.
+
 justify-content: center
 Função: Centraliza itens ao longo do eixo principal em um container flexível.
 Uso Típico: Alinhar itens no centro de um container flexível.
+
 justify-content: space-between
 Função: Distribui itens igualmente com espaço entre eles ao longo do eixo principal.
 Uso Típico: Colocar itens nas extremidades do container com espaço entre eles.
+
 border-box
 Função: Incluir bordas e preenchimento nas dimensões definidas do elemento.
 Uso Típico: Facilitar o controle das dimensões de um elemento sem cálculos adicionais.
+
 flex: 1
 Função: Faz com que um item flexível cresça para ocupar o espaço disponível.
 Uso Típico: Distribuir o espaço igualmente entre os itens flexíveis.
+
 background-color
 Função: Define a cor de fundo de um elemento.
 Uso Típico: Adicionar cor de fundo a elementos.
+
 box-shadow
 Função: Adiciona sombra ao redor de um elemento.
 Uso Típico: Criar uma sombra em torno de caixas para destacar ou adicionar profundidade.
+
 margin-right
 Função: Adiciona espaço à direita de um elemento.
 Uso Típico: Criar espaçamento entre elementos colocados lado a lado.
+
 margin
 Função: Adiciona espaço ao redor de um elemento.
 Uso Típico: Criar espaçamento entre elementos colocados lado a lado ou em cima uns dos outros.
+
 padding
 Função: Adiciona espaço dentro de um elemento, entre o conteúdo e a borda.
 Uso Típico: Criar espaçamento interno para melhorar a legibilidade e o layout.
+
 display: inline-block
 Função: Define um elemento como um bloco em linha, permitindo a configuração de largura e altura, mas mantendo-o na mesma linha.
 Uso Típico: Criar botões ou elementos que precisam de controle de dimensões, mas alinhados em linha.
