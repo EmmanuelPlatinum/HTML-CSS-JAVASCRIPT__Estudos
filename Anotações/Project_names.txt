@@ -1,0 +1,51 @@
+project_name/
+│
+├── index.html                # Arquivo principal da aplicação ou página inicial
+│
+├── css/                      # Pasta para arquivos de estilo CSS
+│   ├── styles.css            # Arquivo CSS principal com estilos gerais
+│   ├── main.css              # Estilos principais da aplicação
+│   ├── components/           # Estilos específicos para componentes
+│   │   ├── button.css        # Estilos para botões
+│   │   ├── card.css          # Estilos para cartões
+│   ├── themes/               # Estilos relacionados a diferentes temas ou skins
+│       ├── dark-theme.css    # Estilos para o tema escuro
+│       ├── light-theme.css   # Estilos para o tema claro
+│
+├── js/                       # Pasta para arquivos JavaScript
+│   ├── main.js               # Arquivo JavaScript principal
+│   ├── app.js                # Arquivo JavaScript com lógica de aplicação
+│   ├── modules/              # Arquivos JavaScript organizados por módulo
+│   │   ├── user.js           # Módulo para manipulação de usuários
+│   │   ├── auth.js           # Módulo para autenticação
+│   ├── utils/                # Funções utilitárias e helpers
+│       ├── helpers.js        # Funções auxiliares gerais
+│       ├── dateUtils.js      # Funções relacionadas a datas
+│
+├── images/                   # Pasta para armazenar imagens usadas no projeto
+│   ├── logo.png              # Exemplo de imagem (logo)
+│   ├── background.jpg        # Imagem de fundo
+│
+├── fonts/                    # Pasta para fontes personalizadas usadas no projeto
+│   ├── roboto/               # Pasta para a fonte Roboto
+│   │   ├── roboto-regular.woff2 # Fonte regular
+│   │   ├── roboto-bold.woff2    # Fonte negrito
+│
+├── documents/                # Pasta para documentação do projeto
+│   ├── user-guide.md         # Guia do usuário
+│   ├── api-docs.md           # Documentação da API, se aplicável
+│
+├── tests/                    # Pasta para arquivos de teste
+│   ├── test-main.js          # Testes para o arquivo main.js
+│   ├── test-app.js           # Testes para o arquivo app.js
+│
+├── templates/                # Pasta para templates HTML, se aplicável
+│   ├── base.html             # Template base com estrutura comum
+│   ├── header.html           # Template para o cabeçalho
+│   ├── footer.html           # Template para o rodapé
+│
+├── .gitignore                # Arquivo para especificar arquivos e pastas que o Git deve ignorar
+├── README.md                 # Arquivo de documentação do projeto
+├── package.json              # Arquivo de configuração do npm (para gerenciamento de pacotes JavaScript)
+├── webpack.config.js         # Arquivo de configuração do Webpack, se aplicável
+└── LICENSE                   # Arquivo de licença do projeto
